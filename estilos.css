@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5e6ff; /* Lila muy suave */
+    text-align: center;
+    padding: 50px;
+    color: #5e2b8c; /* Lila oscuro para el texto */
+}
+
+h1 {
+    color: #6a1b9a;
+}
+
+button {
+    background-color: #c084fc; /* Color lila bonito */
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a855f7; /* Un poco más oscuro al pasar el mouse */
+}
+
+#resultado {
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #f3e8ff;
+    border: 2px solid #c084fc;
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
